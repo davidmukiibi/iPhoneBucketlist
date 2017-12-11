@@ -10,6 +10,8 @@ import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
+    
+    public let userdefaults =  UserDefaults()
 
     var window: UIWindow?
 

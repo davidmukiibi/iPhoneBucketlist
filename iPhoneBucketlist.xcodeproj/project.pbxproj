@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		2794BA801FDE8007007D18A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2794BA7F1FDE8007007D18A1 /* AppDelegate.swift */; };
-		2794BA821FDE8007007D18A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2794BA811FDE8007007D18A1 /* ViewController.swift */; };
 		2794BA851FDE8007007D18A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2794BA831FDE8007007D18A1 /* Main.storyboard */; };
 		2794BA871FDE8007007D18A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2794BA861FDE8007007D18A1 /* Assets.xcassets */; };
 		2794BA8A1FDE8007007D18A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2794BA881FDE8007007D18A1 /* LaunchScreen.storyboard */; };
+		2794BA921FDE8060007D18A1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2794BA911FDE8060007D18A1 /* LoginViewController.swift */; };
+		2794BA941FDE8089007D18A1 /* CreateBucketlistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2794BA931FDE8089007D18A1 /* CreateBucketlistViewController.swift */; };
+		2794BA961FDE80A9007D18A1 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2794BA951FDE80A9007D18A1 /* RegisterViewController.swift */; };
+		2794BA981FDE84EC007D18A1 /* ViewBucketlistsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2794BA971FDE84EC007D18A1 /* ViewBucketlistsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2794BA7C1FDE8007007D18A1 /* iPhoneBucketlist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPhoneBucketlist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2794BA7F1FDE8007007D18A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2794BA811FDE8007007D18A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2794BA841FDE8007007D18A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2794BA861FDE8007007D18A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2794BA891FDE8007007D18A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2794BA8B1FDE8007007D18A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2794BA911FDE8060007D18A1 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2794BA931FDE8089007D18A1 /* CreateBucketlistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateBucketlistViewController.swift; sourceTree = "<group>"; };
+		2794BA951FDE80A9007D18A1 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		2794BA971FDE84EC007D18A1 /* ViewBucketlistsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewBucketlistsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +61,11 @@
 			isa = PBXGroup;
 			children = (
 				2794BA7F1FDE8007007D18A1 /* AppDelegate.swift */,
-				2794BA811FDE8007007D18A1 /* ViewController.swift */,
 				2794BA831FDE8007007D18A1 /* Main.storyboard */,
+				2794BA911FDE8060007D18A1 /* LoginViewController.swift */,
+				2794BA931FDE8089007D18A1 /* CreateBucketlistViewController.swift */,
+				2794BA971FDE84EC007D18A1 /* ViewBucketlistsViewController.swift */,
+				2794BA951FDE80A9007D18A1 /* RegisterViewController.swift */,
 				2794BA861FDE8007007D18A1 /* Assets.xcassets */,
 				2794BA881FDE8007007D18A1 /* LaunchScreen.storyboard */,
 				2794BA8B1FDE8007007D18A1 /* Info.plist */,
@@ -136,7 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2794BA821FDE8007007D18A1 /* ViewController.swift in Sources */,
+				2794BA941FDE8089007D18A1 /* CreateBucketlistViewController.swift in Sources */,
+				2794BA961FDE80A9007D18A1 /* RegisterViewController.swift in Sources */,
+				2794BA981FDE84EC007D18A1 /* ViewBucketlistsViewController.swift in Sources */,
+				2794BA921FDE8060007D18A1 /* LoginViewController.swift in Sources */,
 				2794BA801FDE8007007D18A1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
