@@ -36,8 +36,13 @@ class ViewBucketlistsViewController: UIViewController {
                 let responseCode: NSInteger = bucketlists[1] as! NSInteger
                 if (responseCode == 200) {
                     for bucketlist in bucketlists[0] as! NSDictionary {
-                        print(bucketlist.value)
-                    }
+                        let new_bucket = bucketlist.value as! NSArray
+                        for each_bucket in new_bucket {
+                            let new_b = each_bucket as! NSDictionary
+                            print(new_b["name"]!)
+                        }
+                            }
+
                 } else { print("this has refused to work, this error code: \(bucketlists[1])") }
             } catch {
                 print("Could not parse data as Json \(error)")
